@@ -1,0 +1,67 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background:white;
+    color:#007d7b;
+    text-align:left;
+}
+
+nav{
+    background:black;
+    list-style:none;
+    text-align:right;
+    padding:15px;
+    padding-right:50px;
+    
+
+}
+nav li{
+    display:inline;
+    margin:45px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+   
+}
+#top{
+    visibility:hidden;
+}
+
+#about h2{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+#gallerytext h2{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+#galleryrowone{
+    display:grid;
+    grid-template-columns: 1FR 1FR 1FR;
+    
+}
+#galleryrowtwo{
+    display:grid;
+    grid-template-columns: 1FR 1FR 1FR;
+}
+#galleryrowthree{
+    display:grid;
+    grid-template-columns: 1FR 1FR 1FR;
+}
+#galleryrowfour{
+    display:grid;
+    grid-template-columns: 1FR 1FR 1FR;
+}
+#form{
+    text-align:center;
+    background:black;
+    color:white;
+}
